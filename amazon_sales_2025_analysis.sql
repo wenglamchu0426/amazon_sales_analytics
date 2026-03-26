@@ -1,3 +1,5 @@
+-- Data used: fictitious Amazon sales dataset (columns: Order ID, Date, Product, Category, Price, Quantity, Total Sales, Customer Name, Customer Location, Payment Method, Status). 
+
 RENAME TABLE `amazon_sales_data 2025` TO sales;
 SELECT * FROM sales;
 
