@@ -1,4 +1,5 @@
--- Data used: 2025 Amazon sales dataset from Kaggle (columns: Order ID, Date, Product, Category, Price, Quantity, Total Sales, Customer Name, Customer Location, Payment Method, Status). 
+-- data used: 2025 Amazon sales dataset (columns: Order ID, Date, Product, Category, Price, Quantity, Total Sales, Customer Name, Customer Location, Payment Method, Status).
+-- link to Kaggle page: https://www.kaggle.com/datasets/zahidmughal2343/amazon-sales-2025
 
 RENAME TABLE `amazon_sales_data 2025` TO sales;
 SELECT * FROM sales;
